@@ -1,0 +1,14 @@
+﻿生成启动时间为 2018/7/23 16:33:19。
+     1>项目“F:\Project.Vs2013\爱心图案\爱心图案\爱心图案.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt LOVE.c
+         LOVE.c
+     1>f:\project.vs2013\爱心图案\爱心图案\love.c(48): warning C4715: “h”: 不是所有的控件路径都返回值
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Project.Vs2013\爱心图案\Debug\爱心图案.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Project.Vs2013\爱心图案\Debug\爱心图案.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Project.Vs2013\爱心图案\Debug\爱心图案.lib" /MACHINE:X86 Debug\LOVE.obj
+         爱心图案.vcxproj -> F:\Project.Vs2013\爱心图案\Debug\爱心图案.exe
+     1>已完成生成项目“F:\Project.Vs2013\爱心图案\爱心图案\爱心图案.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.11
