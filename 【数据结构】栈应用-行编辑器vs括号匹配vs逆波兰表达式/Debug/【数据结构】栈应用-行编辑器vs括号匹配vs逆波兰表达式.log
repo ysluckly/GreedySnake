@@ -1,0 +1,15 @@
+﻿生成启动时间为 2018/8/16 22:12:51。
+     1>项目“F:\HomeWork\bit_数据结构\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt eg.c
+         eg.c
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\HomeWork\bit_数据结构\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式\Debug\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\HomeWork\bit_数据结构\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式\Debug\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\HomeWork\bit_数据结构\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式\Debug\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式.lib" /MACHINE:X86 Debug\eg.obj
+         Debug\Stack.obj
+         Debug\test.obj
+         【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式.vcxproj -> F:\HomeWork\bit_数据结构\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式\Debug\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式.exe
+     1>已完成生成项目“F:\HomeWork\bit_数据结构\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式\【数据结构】栈应用-行编辑器vs括号匹配vs逆波兰表达式.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.97
