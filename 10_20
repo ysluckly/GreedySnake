@@ -1,0 +1,554 @@
+
+
+//struct ListNode
+//{
+//	int _data;
+//	struct ListNode* _next;
+//	struct ListNode* _prev;
+//};
+//
+//// 类型：structListNode 
+//// C++兼容C语言
+//int main()
+//{
+//	struct ListNode node;
+//
+//	return 0;
+//}
+
+//struct ListNode
+//{
+//	int _data;
+//	ListNode* _next;
+//	ListNode* _prev;
+//};
+//
+//// C
+//// 类型：struct ListNode 
+//// C++兼容C语言
+//
+//// C++
+//// struct升级成类，类型：ListNode
+//// struct 类里面既可以定义变量，函数
+//
+//int main()
+//{
+//	ListNode node;
+//
+//	return 0;
+//}
+
+//struct SeqList
+//{
+//	void PopBack()
+//	{}
+//
+//public:
+//	void PushBack(int x)
+//	{
+//		++_size;
+//	}
+//
+//private:
+//	int* _a;
+//	size_t _size;
+//	size_t _capacity;
+//};
+//
+//int main()
+//{
+//	SeqList s;
+//	s.PushBack(1);
+//	s.PopBack();
+//	//s._size++;
+//}
+
+
+//int main()
+//{
+//	int x = 0;
+//	for (int i = 0; i < 10; ++i)
+//	{
+//		int j = 0;
+//		x
+//	}
+//
+//	i = 1;
+//}
+
+#include <iostream>
+using namespace std;
+//
+//class Test
+//{
+//public:
+//	void SetA(int a)
+//	{
+//		_a = a;
+//	}
+//
+//	void PrintA()
+//	{
+//		cout << _a << endl;
+//	}
+//private:
+//	int _a;
+//	size_t _size;
+//};
+//
+//int main()
+//{
+//	Test t;
+//	t.SetA(10);
+//	t.PrintA();
+//
+//	return 0;
+//}
+
+//class SeqList
+//{
+//public:
+//	void PushBack(int x);
+//
+//private:
+//	int* _a;			// 声明
+//	size_t _size;
+//	size_t _capacity;
+//};
+//
+//void SeqList::PushBack(int x)
+//{}
+//
+//// 类中仅有成员函数
+//class A2
+//{
+//public:
+//	void f1()
+//	{}
+//	void f2()
+//	{}
+//};
+//
+//int main()
+//{
+//	SeqList s1;
+//	SeqList s2;
+//
+//	cout << sizeof(SeqList) << endl;
+//	cout << sizeof(A2) << endl; // 1 -> 不存数据，占位，表示对象存在过
+//
+//	A2 a1; // 
+//	A2 a2;
+//	a1.f1();
+//	a2.f1();
+//
+//	return 0;
+//}
+
+//class A1
+//{
+//	char _ch;
+//	double _d;
+//};
+//
+//class A2
+//{
+//	double _d;
+//	char _ch;
+//};
+//
+//class A3
+//{
+//	char _ch;
+//	A1 _a1;
+//};
+//
+//
+//int main()
+//{
+//	cout << sizeof(A1) << endl;
+//	cout << sizeof(A2) << endl;
+//	cout << sizeof(A3) << endl;
+//
+//	return 0;
+//}
+
+//class Date
+//{
+//public:
+//	void Func()
+//	{
+//		cout << "Date::Func()" << endl;
+//	}
+//
+//	void Print()
+//	{
+//		cout <<_year << "-" << _month << "-" << _day << endl;
+//	}
+//
+//	void SetDate(int year, int month, int day)
+//	{
+//		_year = year;
+//		_month = month;
+//		_day = day;
+//	}
+//private:
+//	int _year;
+//	int _month;
+//	int _day;
+//};
+//
+////int main()
+////{
+////	Date d1;
+////	//Date d2;
+////
+////	d1.SetDate(2018, 10, 20);
+////	//d2.SetDate(2018, 10, 21);
+////
+////	//d1.Print();
+////	//d2.Print();
+////
+////	Date* p1 = NULL;
+////	p1->Func();
+////
+////	Date* p2 = NULL;
+////	p2->Print();
+////
+////	return 0;
+////}
+//
+//int main()
+//{
+//	Date d1;
+//	d1.Print();
+//	d1.SetDate(2018, 10, 20);
+//	d1.Print();
+//
+//	return 0;
+//}
+
+//class Time
+//{
+//public:
+//	Time()
+//	{
+//		cout << "Time()" << endl;
+//		_hour = 0;
+//		_minute = 0;
+//		_second = 0;
+//	}
+//
+//private:
+//	int _hour;
+//	int _minute;
+//	int _second;
+//};
+//
+//class Date
+//{
+//public:
+//	//Date()
+//	//{
+//	//	_year = 1900;
+//	//	_month = 1;
+//	//	_day = 1;
+//	//}
+//
+//	//Date(int year)
+//	//{
+//	//	_year = year;
+//	//	_month = 10;
+//	//	_day = 1;
+//	//}
+//
+//	//Date(int year, int month, int day)
+//	//{
+//	//	_year = year;
+//	//	_month = month;
+//	//	_day = day;
+//	//}
+//
+//	void Print()
+//	{
+//		cout << _year << "-" << _month << "-" << _day << endl;
+//	}
+//	
+//private:
+//	int _year;
+//	int _month;
+//	int _day;
+//
+//	Time _t;
+//	// 默认生成的构造函数。对于1不做处理，对于2调用无参默认构造初始化
+//	// 1.基本类型：int/char... 
+//	// 2.自定义类型：class/struct定义的类型...
+//};
+//
+//int main()
+//{
+//	Date d1;
+//	d1.Print();
+//
+//	//Date d2(2018, 10, 20);
+//	//d2.Print();
+//
+//	return 0;
+//}
+
+//class Time
+//{
+//public:
+//	~Time()
+//	{
+//		cout << "~Time()" << endl;
+//	}
+//};
+//
+//class Date
+//{
+//public:
+//	//Date()
+//	//{
+//	//	_year = 1900;
+//	//	_month = 1;
+//	//	_day = 1;
+//	//}
+//
+//	Date(int year = 1901, int month = 1, int day = 1)
+//	{
+//		_year = year;
+//		_month = month;
+//		_day = day;
+//	}
+//
+//	//Date(const Date& d)
+//	//{
+//	//	_year = d._year;
+//	//	_month = d._month;
+//	//	_day = d._day;
+//	//}
+//
+//	void Print()
+//	{
+//		cout << _year << "-" << _month << "-" << _day << endl;
+//	}
+//
+//private:
+//	int _year;
+//	int _month;
+//	int _day;
+//};
+//
+//class SeqList
+//{
+//public:
+//	SeqList(int capacity = 10)
+//	{
+//		_array = (int*)malloc(sizeof(int)*capacity);
+//		_size = 0;
+//		_capacity = capacity;
+//	}
+//
+//	~SeqList()
+//	{
+//		free(_array);
+//		_array = NULL;
+//		_capacity = _size = 0;
+//	}
+//
+//private:
+//	int* _array;
+//	size_t _size;
+//	size_t _capacity;
+//};
+//
+//int main()
+//{
+//	Date d1;
+//	d1.Print();
+//
+//	Date d2(2018, 10, 21);
+//	d2.Print();
+//
+//	Date d3(2019); 
+//	d3.Print();
+//
+//	Date d4(d2); // 拷贝构造 -> 浅拷贝（按字节进行拷贝）
+//	d4.Print();
+//
+//	SeqList s1;
+//	SeqList s2(s1);
+//
+//	return 0;
+//}
+
+//class Date
+//{
+//public:
+//	Date(int year = 1900, int month = 1, int day  = 1)
+//	{
+//		_year = year;
+//		_month = month;
+//		_day = day;
+//	}
+//private:
+//	int _year;
+//	int _month;
+//	int _day;
+//};
+//
+//bool Equal(const Date& d1, const Date& d2)
+//{
+//	return d1._year == d2._year
+//		&& d1._month == d2._month
+//		&& d1._day == d2._day;
+//}
+//
+//bool operator==(const Date& d1, const Date& d2)
+//{
+//	return d1._year == d2._year
+//		&& d1._month == d2._month
+//		&& d1._day == d2._day;
+//}
+//
+//int main()
+//{
+//	Date d1(2018, 10, 20);
+//	Date d2(2018, 10, 21);
+//
+//	cout << Equal(d1, d2) << endl;
+//	cout << operator==(d1, d2) << endl;
+//	cout << (d1 == d2) << endl; // 可读性
+//
+//	return 0;
+//}
+
+//class Date
+//{
+//public:
+//	Date(int year = 1900, int month = 1, int day = 1)
+//	{
+//		_year = year;
+//		_month = month;
+//		_day = day;
+//	}
+//	// d1.Equal(&d1, d2)
+//	bool Equal(const Date& d2)
+//	{
+//		return this->_year == d2._year
+//			&& this->_month == d2._month
+//			&& this->_day == d2._day;
+//	}
+//
+//	bool operator==(const Date& d2)
+//	{
+//		return this->_year == d2._year
+//			&& this->_month == d2._month
+//			&& this->_day == d2._day;
+//	}
+//
+//private:
+//	int _year;
+//	int _month;
+//	int _day;
+//};
+//
+//int main()
+//{
+//	Date d1(2018, 10, 20);
+//	Date d2(2018, 10, 21);
+//
+//	cout << d1.Equal(d2) << endl;
+//	cout << (d1 == d2) << endl; // 可读性
+//
+//	cout << d1.operator==(d2) << endl;
+//	//cout << d1.operator==(&d1,d2) << endl;
+//
+//
+//	return 0;
+//}
+
+//class Date
+//{
+//public:
+//	Date(int year = 1900, int month = 1, int day = 1)
+//	{
+//		_year = year;
+//		_month = month;
+//		_day = day;
+//	}
+//
+//	Date(const Date& d)
+//	{
+//		_year = d._year;
+//		_month = d._month;
+//		_day = d._day;
+//	}
+//
+//	// d2 = d1
+//	// d2.operator=(d1)
+//	// d2.operator=(&d2, d1);
+//	// d2 = d2
+//	// d1 = d2 = d3
+//	//Date& operator=(const Date& d)
+//	//{
+//	//	if (this != &d)
+//	//	{
+//	//		_year = d._year;
+//	//		_month = d._month;
+//	//		_day = d._day;
+//	//	}
+//
+//	//	return *this;
+//	//}
+//
+//	void Print()
+//	{
+//		cout << _year << "-" << _month << "-" << _day << endl;
+//	}
+//
+//	Date operator-(int day);
+//	int operator-(const Date& d);
+//
+//private:
+//	int _year;
+//	int _month;
+//	int _day;
+//};
+//
+//int main()
+//{
+//	//Date d1(2018, 10, 20);
+//	//Date d2(2018, 10, 21);
+//
+//	//Date d3(d1);
+//	//d2 = d1;
+//	//d2.Print();
+//
+//	//d2 = d2;
+//	//d2.Print();
+//
+//	//d3 = d2 = d1; // d3 = (d2.operator=(&d2, d1))
+//
+//	Date d1(2018, 10, 20);
+//	Date d2(2018, 10, 21);
+//
+//	Date d3(d1);
+//	d2 = d1;
+//
+//	Date d4 = d1; // 拷贝构造
+//
+//	// 运算符重载
+//	// 函数重载
+//	return 0;
+//}
+
+#include "Date.h"
+
+int main()
+{
+	Date d1(2018, 10, 32);
+	Date d1(2018, 2, 29);
+	Date d1(2016, 2, 29)
+}
